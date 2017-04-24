@@ -1,5 +1,0 @@
-Hello
-This is Sambit Sahu
-testing Java .....
-
-Reading from this File completed successfully.
