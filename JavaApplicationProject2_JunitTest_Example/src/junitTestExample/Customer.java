@@ -11,21 +11,19 @@ package junitTestExample;
  */
 public class Customer {
 
+    
+    public static String sayHello( String customerName){
+            return "Hello "+customerName;
+    }
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //System.out.println(this.sayHello());
+        
         String msg = sayHello("Sambit");
+        System.out.println(msg);
     }
 
-    
-
-    
-    public static String sayHello( String customerName)
-    {
-            return "Hello "+customerName;
-    }
-    
 }

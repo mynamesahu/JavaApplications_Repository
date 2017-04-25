@@ -54,16 +54,18 @@ public class CustomerTest {
      */
     @Test
     public void testSayHello() {
-        System.out.println("sayHello");
+        System.out.println("Inside the test method");
         
-        String customerName = "Sambit"; // test data
+        String customerName = "Sambit";                           // test data
         
-        Customer instance = new Customer();
-               
-        String actualResult = instance.sayHello(customerName);   // Actual result
-        String expResult = "Hello Sambit";                       // Expected result
+        Customer cust = new Customer();
+        String actualResult = cust.sayHello(customerName);       // Actual result for sayHello() method with above test data
+        
+        String expResult = "Hello Sambit";                       // Expected result for sayHello() method with above test data
         
         assertEquals(expResult, actualResult);                  // compare the expected result with the actual result --> if they are same, then the test is passed
+        
+        
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
