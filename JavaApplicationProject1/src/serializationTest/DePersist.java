@@ -18,7 +18,7 @@ public class DePersist {
             using readObject() method */
         
         //FileInputStream = new FileInputStream("file1.txt");
-        ObjectInputStream objIn = new ObjectInputStream(new FileInputStream("D:/Sambit/NetBeansProjects/JavaApplicationProject1/myTestFile.txt"));
+        ObjectInputStream objIn = new ObjectInputStream(new FileInputStream("D:/Sambit/NetBeansProjects/JavaApplications_Repository/JavaApplicationProject1/myTestFile.txt"));
         Student mystudent = (Student)objIn.readObject();
         
         System.out.println("Student ID="+mystudent.id);
