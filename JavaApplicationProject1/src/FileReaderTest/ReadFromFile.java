@@ -29,8 +29,9 @@ public class ReadFromFile {
     public static void main(String args[]) 
             throws FileNotFoundException, IOException{
         
-                new ReadFromFile("D:\\Sambit\\NetBeansProjects\\JavaApplications_Repository\\JavaApplicationProject1\\myTestFile2.txt");         // when the class is instantiated, it invokes the constructor
-       
+                //new ReadFromFile("D:\\Sambit\\NetBeansProjects\\JavaApplications_Repository\\JavaApplicationProject1\\myTestFile2.txt");  // when the class is instantiated, it invokes the constructor
+                new ReadFromFile("D:/Sambit/NetBeansProjects/JavaApplications_Repository/JavaApplicationProject1/myTestFile2.txt");         // when the class is instantiated, it invokes the constructor
+                
     }
             
     
