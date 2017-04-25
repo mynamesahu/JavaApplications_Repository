@@ -27,7 +27,7 @@ public class Persist{
             
             /* mystudent object is converted to a byte stream and then persisted to a file "file1.txt" 
             using writeObject() method */
-            ObjectOutputStream objOut = new ObjectOutputStream(new FileOutputStream("D:/Sambit/NetBeansProjects/JavaApplicationProject1/myTestFile.txt")); 
+            ObjectOutputStream objOut = new ObjectOutputStream(new FileOutputStream("D:/Sambit/NetBeansProjects/JavaApplications_Repository/JavaApplicationProject1/myTestFile.txt")); 
             objOut.writeObject(mystudent);  
             objOut.flush();  
             
