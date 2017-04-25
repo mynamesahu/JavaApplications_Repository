@@ -20,7 +20,7 @@ public class Persist{
     public static void main(String args[])throws Exception{
     
         Student mystudent;
-            mystudent= new Student(27,"Sattwik Sahu");
+        mystudent= new Student(27,"Sattwik Sahu");
     
         //try{
             //FileOutputStream fileOut = new FileOutputStream("file1.txt");
